@@ -64,6 +64,14 @@ chown swift:swift /srv/node/vda1
 
 swift-init all stop
 
+#########
+#########
+## You need to put in /etc/swift/swift.conf and misc files from this repo
+#########
+#########
+
+
+
 swift-init all start
 
 
