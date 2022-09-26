@@ -75,7 +75,7 @@ swift-init all stop
 swift-init all start
 
 
-################
+################## WARNING - THESE ARE WINDOWS POWERSHELL FORMAT
 
 echo $Env:USERNAME > sample_object.txt
 
