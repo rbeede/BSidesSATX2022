@@ -115,4 +115,4 @@ swift --insecure -A https://${LAB_OPENSTACK_IP}:8080/auth/v1.0 -U account2:someb
 swift --insecure -A https://${LAB_OPENSTACK_IP}:8080/auth/v1.0 -U account2:somebody -K else upload research ".\fyi emoji.png"
 
 swift --insecure -A https://${LAB_OPENSTACK_IP}:8080/auth/v1.0 -U codeerror:unexpecteduser -K shouldnothappen delete warez
-swift --insecure -A https://${LAB_OPENSTACK_IP}:8080/auth/v1.0 -U codeerror:unexpecteduser -K shouldnothappen upload warez .\pumpkin.jpg
+swift --insecure -A https://${LAB_OPENSTACK_IP}:8080/auth/v1.0 -U codeerror:unexpecteduser -K shouldnothappen upload warez .\pumpkin.JPG
